@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4H7bqB/mL2Ryowz/y0NFrCWHu0PZiGWtnv8cXtoBngWKAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZ+/az8JH2n0sycFFUjA2d9AF9/ddjEAAAA[0mBuild C" build number [8mha:////4J/76eULsP8CY9ejF/Kxj/iCQl45ITfve8CXGrvhOjzxAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwkfafSzJwUVSMDZ30jAGqwKbTFAAAA[0m2
+originally caused by:
+ Started by GitHub push by asadashiv
+Running as SYSTEM
+Building remotely on [8mha:////4BN5xJ/llkONJvsdha9Vj3Q5w6At6KycSl+TTQ1H6maAAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eKcxLJUBQsAFJmh8cYAAAA=[0mslave 8 (slave8) in workspace /home/jenkins/jenkins-workspace/workspace/Deploy
+[Deploy] $ /bin/sh -xe /tmp/jenkins928988182583515615.sh
++ cd /home/jenkins/jenkins-workspace/workspace/slave8
++ ./ABC.exe
+Please Enter Two different values
+Both are Equal
+Enter three different numbers: 0.00 is the largest number.Enter a number: Factorial of 21884 is: 0Enter an integer: -523525507 is not a palindrome.Enter a number: Reversed Number: -523525507Finished: SUCCESS

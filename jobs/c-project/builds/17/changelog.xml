@@ -1,0 +1,10 @@
+commit 42edb320d5c50e1df57c9fb02258cc34706a70b3
+tree 670bafb14021a157985293c469c48089d580f671
+parent f85681da6a5a0b6a1f421095933729bf7f17e57e
+author sadashiv <ec2-user@ip-172-31-39-219.ap-south-1.compute.internal> 2022-11-13 03:01:09 +0000
+committer sadashiv <ec2-user@ip-172-31-39-219.ap-south-1.compute.internal> 2022-11-13 03:01:09 +0000
+
+     docs revised
+
+
+:000000 100644 0000000000000000000000000000000000000000 484c7b698e9bdf37c6f932cd466d4a42a9e7a7f3 A	makefile

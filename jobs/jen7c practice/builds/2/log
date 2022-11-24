@@ -1,0 +1,26 @@
+Started by user [8mha:////4JK5ob50soD8e0asQ8YHS97RI/hxLvVjLL8Yay25pEJfAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgY+/dLi1CL94sSUxOKMzDIA9EZkMMMAAAA=[0mSadashiv Avaradi
+Running as SYSTEM
+Building remotely on [8mha:////4O71T/axT82F0/TndaWDUg8Otk4HYruAOVdvR+6CmAtRAAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZJ/eT83ILSktQi/azUPHOFZIWCosTkkszkVABl29Z0zgAAAA==[0mjen7 c practice (label7) in workspace /home/jenkins/jenkins-workspace/workspace/jen7c practice
+The recommended git tool is: NONE
+using credential 2024
+ > git rev-parse --resolve-git-dir /home/jenkins/jenkins-workspace/workspace/jen7c practice/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/asadashiv/docs.git # timeout=10
+Fetching upstream changes from https://github.com/asadashiv/docs.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_SSH to set credentials jen 7 2024
+Verifying host key using known hosts file
+[8mha:AAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgnFYgIpE6fjN+19fes8PTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+K1+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6Af/njhS1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Configure Global Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://github.com/asadashiv/docs.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 03d73ac4d4aabf1ab07fa255db7c5072754ee0e2 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 03d73ac4d4aabf1ab07fa255db7c5072754ee0e2 # timeout=10
+Commit message: "Merge https://github.com/asadashiv/docs"
+ > git rev-list --no-walk 03d73ac4d4aabf1ab07fa255db7c5072754ee0e2 # timeout=10
+[jen7c practice] $ /bin/sh -xe /tmp/jenkins17355400344667019014.sh
++ cd /home/jenkins/jenkins-workspace/workspace/cproject
+/tmp/jenkins17355400344667019014.sh: 2: cd: can't cd to /home/jenkins/jenkins-workspace/workspace/cproject
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

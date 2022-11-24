@@ -1,0 +1,27 @@
+Started by GitHub push by asadashiv
+Running as SYSTEM
+Building remotely on [8mha:////4BN5xJ/llkONJvsdha9Vj3Q5w6At6KycSl+TTQ1H6maAAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/eKcxLJUBQsAFJmh8cYAAAA=[0mslave 8 (slave8) in workspace /home/jenkins/jenkins-workspace/workspace/Build C
+The recommended git tool is: NONE
+using credential 0b6626c5-31f9-4a71-8223-41565c8732a2
+ > git rev-parse --resolve-git-dir /home/jenkins/jenkins-workspace/workspace/Build C/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/asadashiv/docs.git # timeout=10
+Fetching upstream changes from https://github.com/asadashiv/docs.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_SSH to set credentials slave8
+Verifying host key using known hosts file
+[8mha:AAAAwB+LCAAAAAAAAP9djLENwjAQRY8gGIAS0VE77ihAVDQgRVAwQRSMfYl1tuwLStZgDWgYgnFYgIpE6fjN+19fes8PTGKAhakv0VFaOIrOqnTfehUsUnV0rFbbx2t79+8EkgNMrSLNJoNxHSzDLCvzWy5tTlqeOSDpTRNg/qfbDexlMGSUADS+K1+Gk2H2cS2lt7VGimmpqOqJTmpkUVhUxHI53KKTcrdFjEYYF1lUqhU3FfCKRc7o6Af/njhS1AAAAA==[0mYou're using 'Known hosts file' strategy to verify ssh host keys, but your known_hosts file does not exist, please go to 'Manage Jenkins' -> 'Configure Global Security' -> 'Git Host Key Verification Configuration' and configure host key verification.
+ > git fetch --tags --force --progress -- https://github.com/asadashiv/docs.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 5ddbc6ec452ba4ad212f5d18262724e3aa35442c (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5ddbc6ec452ba4ad212f5d18262724e3aa35442c # timeout=10
+Commit message: "Update big2.c"
+ > git rev-list --no-walk 03d73ac4d4aabf1ab07fa255db7c5072754ee0e2 # timeout=10
+[Build C] $ /bin/sh -xe /tmp/jenkins6168950024804807369.sh
++ cd /home/jenkins/jenkins-workspace/workspace/slave8
++ make ABC.exe
+make: 'ABC.exe' is up to date.
+Triggering a new build of [8mha:////4EjvYKXKf1ahpRTO+OjRF9IZ/3sWqXK3HFuwjwO8qKZpAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JH2X1IKc/Ep9ANFMbsTBAAAA[0mDeploy
+Finished: SUCCESS

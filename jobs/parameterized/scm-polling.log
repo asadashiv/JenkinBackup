@@ -1,0 +1,25 @@
+Started on Nov 23, 2022, 9:40:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision d539ec037cd1eb8e458dede0c7f470fbff58f5b5 (refs/remotes/origin/main)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential 19ca2d03-e217-4df6-8239-a7875722994a
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials passwd
+ > git ls-remote -h -- https://github.com/asadashiv/parameterized.git # timeout=10
+Found 3 remote heads on https://github.com/asadashiv/parameterized.git
+[poll] Latest remote head revision on refs/heads/main is: 0321391deff337966d57af5ae90f1a08c73d4f96
+Using strategy: Default
+[poll] Last Built Revision: Revision d539ec037cd1eb8e458dede0c7f470fbff58f5b5 (refs/remotes/origin/main)
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+using credential 19ca2d03-e217-4df6-8239-a7875722994a
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+using GIT_ASKPASS to set credentials passwd
+ > git ls-remote -h -- https://github.com/asadashiv/parameterized.git # timeout=10
+Found 3 remote heads on https://github.com/asadashiv/parameterized.git
+[poll] Latest remote head revision on refs/heads/main is: 0321391deff337966d57af5ae90f1a08c73d4f96
+Done. Took 2.2 sec
+Changes found

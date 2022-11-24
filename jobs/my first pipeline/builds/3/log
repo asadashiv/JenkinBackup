@@ -1,0 +1,44 @@
+Started by user [8mha:////4JK5ob50soD8e0asQ8YHS97RI/hxLvVjLL8Yay25pEJfAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgY+/dLi1CL94sSUxOKMzDIA9EZkMMMAAAA=[0mSadashiv Avaradi
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+WorkflowScript: 4: Unknown stage section "step". Starting with version 0.5, steps in a stage must be in a ‘steps’ block. @ line 4, column 9.
+           stage ('Build C') {
+           ^
+
+WorkflowScript: 12: Unknown stage section "step". Starting with version 0.5, steps in a stage must be in a ‘steps’ block. @ line 12, column 9.
+           stage ('Deploy c') {
+           ^
+
+WorkflowScript: 18: Unknown stage section "step". Starting with version 0.5, steps in a stage must be in a ‘steps’ block. @ line 18, column 13.
+               stage ('Testing C') {
+               ^
+
+WorkflowScript: 4: Expected one of "steps", "stages", or "parallel" for stage "Build C" @ line 4, column 9.
+           stage ('Build C') {
+           ^
+
+WorkflowScript: 12: Expected one of "steps", "stages", or "parallel" for stage "Deploy c" @ line 12, column 9.
+           stage ('Deploy c') {
+           ^
+
+WorkflowScript: 18: Expected one of "steps", "stages", or "parallel" for stage "Testing C" @ line 18, column 13.
+               stage ('Testing C') {
+               ^
+
+6 errors
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToPrimaryClassNodes(CompilationUnit.java:1107)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:624)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:602)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:579)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:323)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:293)
+	at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.GroovySandbox$Scope.parse(GroovySandbox.java:163)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.doParse(CpsGroovyShell.java:142)
+	at org.jenkinsci.plugins.workflow.cps.CpsGroovyShell.reparse(CpsGroovyShell.java:127)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.parseScript(CpsFlowExecution.java:562)
+	at org.jenkinsci.plugins.workflow.cps.CpsFlowExecution.start(CpsFlowExecution.java:514)
+	at org.jenkinsci.plugins.workflow.job.WorkflowRun.run(WorkflowRun.java:336)
+	at hudson.model.ResourceController.execute(ResourceController.java:107)
+	at hudson.model.Executor.run(Executor.java:449)
+Finished: FAILURE

@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4H7bqB/mL2Ryowz/y0NFrCWHu0PZiGWtnv8cXtoBngWKAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZ+/az8JH2n0sycFFUjA2d9AF9/ddjEAAAA[0mBuild C" build number [8mha:////4FVFKnrvM6/le2qkDQO8ON3f4xHKAiIu/y9ein7vOWoSAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwkfafSzJwUVSMDZ30TAF8VSl3FAAAA[0m4
+originally caused by:
+ Started by user [8mha:////4JK5ob50soD8e0asQ8YHS97RI/hxLvVjLL8Yay25pEJfAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgY+/dLi1CL94sSUxOKMzDIA9EZkMMMAAAA=[0mSadashiv Avaradi
+Running as SYSTEM
+Building remotely on [8mha:////4DzRooCDted/4hObn8fUWN17WEx+fsN6y5kARSBPgFNyAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/WSF4pzEslQAk8NTNcYAAAA=[0mc slave (slave8) in workspace /home/jenkins/jenkins-workspace/workspace/Deploy c
+[Deploy c] $ /bin/sh -xe /tmp/jenkins7787559430770961114.sh
++ cd /home/jenkins/jenkins-workspace/workspace/slave8
++ ./ABC.exe
+Please Enter Two different values
+Both are Equal
+Enter three different numbers: 0.00 is the largest number.Enter a number: Factorial of 22082 is: 0Enter an integer: -1061494147 is not a palindrome.Enter a number: Reversed Number: 1992994711Finished: SUCCESS
